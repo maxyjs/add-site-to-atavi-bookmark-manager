@@ -1,0 +1,1 @@
+# Adds the "Add this site to Atavi" command to the browser context menu

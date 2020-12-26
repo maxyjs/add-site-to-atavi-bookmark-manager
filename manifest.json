@@ -1,0 +1,31 @@
+{
+  "name": "Add Site To Atavi Bookmark Manager",
+  "description": "Add Site To Atavi Bookmark Manager",
+  "version": "0.10",
+  "manifest_version": 2,
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://atavi.com/"
+      ],
+      "js": [
+        "ataviOnMessage.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "icons": {
+    "128": "icons/128.png"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "contextMenus"
+  ]
+}

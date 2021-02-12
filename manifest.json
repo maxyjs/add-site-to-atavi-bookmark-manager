@@ -3,6 +3,7 @@
   "description": "Add Site To Atavi Bookmark Manager",
   "version": "0.10",
   "manifest_version": 2,
+  "author": "SokolovDADeveloper",
   "background": {
     "scripts": [
       "background.js"
@@ -21,7 +22,10 @@
     }
   ],
   "icons": {
-    "128": "icons/128.png"
+    "128": "icons/icon16.png",
+    "128": "icons/icon32.png",
+    "128": "icons/icon48.png",
+    "128": "icons/icon128.png"
   },
   "permissions": [
     "activeTab",

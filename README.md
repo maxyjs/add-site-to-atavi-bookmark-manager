@@ -1,1 +1,3 @@
-# Adds the "Add this site to Atavi" command to the browser context menu
+# Расширение для браузера 
+
+Написано в 2019 году для себя. Расширение добавляет в контекстное меню браузера пункт "Add this site to Atavi". При нажатии на пункт меню, добавляет текущую страницу в сервис закладок Atavi. 
